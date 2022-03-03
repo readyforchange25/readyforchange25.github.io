@@ -1,0 +1,47 @@
+body,
+html{
+	width: 100x;
+	height: 100x;
+	font-family: PT serif;
+	background: url(vaseimg.jpg); no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+h1{
+	font-size: 3rem;
+	color: #AOAECD;
+	text-transform: uppercase;
+}
+hr{
+	border-color: #FB8122;
+	border-width: 3px;
+	max-width: 65px;
+}
+.buffer{
+	height: 10rem;
+}
+.btn{
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+.btn-primary{
+	background-color:#FB8122;
+	border-color: :#FB8122;
+}
+.btn-xl{
+	padding: 1rem 2rem;
+}
+.container{
+	max-width: 540px;
+}
+.item1{
+	grid-row: span1/1;
+}
+.btn-primary:hover{
+	background-color: #FF6A3CD;
+	border-color: #FF8122;
+	border-width: 4px;
+}
